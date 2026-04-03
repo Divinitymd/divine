@@ -78,16 +78,6 @@ sudo apt-get install \
 
 ## Building the ISO
 
-### Full build (recommended)
-```bash
-git clone https://github.com/your-org/divine-linux.git
-cd divine-linux
-chmod +x build.sh auto/config auto/clean
-sudo ./build.sh build
-```
-
-The ISO will be at `output/divine-linux-YYYYMMDD.iso`.
-
 ### Step-by-step
 ```bash
 # 1. Configure live-build
